@@ -77,9 +77,9 @@ func isAllowed(board [][]rune, val rune, x, y int) bool {
 
 // Returns true if the position doesn't have any value defined
 // That is, if the character is a dot '.'
-/* func isEmpty(board [][]rune, x, y int) bool {
+func isEmpty(board [][]rune, x, y int) bool {
 	return board[y][x] == '.'
-} */
+}
 
 // Returns all the empty positions in the board
 func availablePos(board [][]rune) [][]int {
